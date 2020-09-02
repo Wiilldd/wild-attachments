@@ -57,6 +57,11 @@ AddEventHandler('wild:okay', function()
     GiveWeaponComponentToPed(PlayerPedId(), 0x2BE6766B, 'COMPONENT_AT_SCOPE_MACRO')
     GiveWeaponComponentToPed(PlayerPedId(), 0x2BE6766B, 'COMPONENT_AT_AR_FLSH')
     GiveWeaponComponentToPed(PlayerPedId(), 0x2BE6766B, 'COMPONENT_AT_AR_SUPP_02')
+    --HEAVY PISTOL
+    GiveWeaponComponentToPed(PlayerPedId(), 0xD205520E, 'COMPONENT_HEAVYPISTOL_CLIP_02')
+    GiveWeaponComponentToPed(PlayerPedId(), 0xD205520E, 'COMPONENT_AT_PI_FLSH')
+    GiveWeaponComponentToPed(PlayerPedId(), 0xD205520E, 'COMPONENT_AT_PI_SUPP')
+    
 end)
 
 function DrawText3Ds(x,y,z, text)
